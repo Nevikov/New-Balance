@@ -1,0 +1,7 @@
+name: NewBalance
+author: Nevikov
+version: 1.0.0
+dependencies:
+  rebalancer: ^1.0.6
+type: plugin
+display-name: NewBalance

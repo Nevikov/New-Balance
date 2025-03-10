@@ -1,0 +1,358 @@
+{
+  "$schema": "config_schema.json",
+  "buildings": {
+    "Killing pit": {
+      "cost": [3,0,0,0,0]
+    },
+    "Blacksmith": {
+      "cost": [20,0,0,0,100]
+    },
+
+    "Pitch rig": {
+      "cost": [10,0,0,0,0]
+    },
+
+    "Barracks": {
+      "cost": [0,10,0,0,0]
+    }
+  },
+  "resources": {
+    "Cheese": {
+      "baseDelivery":4
+    }
+  },
+  "units": {
+    "European spearman": {
+      "health":12000,
+      "baseMeleeDamage":30,
+      "arrowDamage":1500,
+      "xbowDamage":4000,
+      "stoneDamage":1000,
+      "meleeDamageVs": {
+        "Trebuchet": 20,
+        "European knight": 45,
+        "European maceman": 40,
+        "Arabian assassin": 40
+      }
+    },
+    "European maceman": {
+      "health":20000,
+      "meleeDamageVs": {
+        "European swordsman": 47,
+        "European knight": 47,
+        "Arabian assassin": 100,
+        "Arabian swordsman": 93
+      },
+     "arrowDamage":1333,
+     "xbowDamage":4000,
+     "stoneDamage":667
+    },
+
+
+    "European pikeman": {
+      "meleeDamageVs": {
+        "European maceman": 27,
+        "European swordsman": 24,
+        "Arabian assassin": 27,
+        "Arabian swordsman": 25
+        }},
+
+
+    "Engineer": {
+      "health":10000,
+      "arrowDamage":1250,
+      "xbowDamage":2500,
+      "stoneDamage":1000
+    },
+
+    "European swordsman": {
+      "health":30000,
+      "arrowDamage":333,
+      "stoneDamage":180,
+      "xbowDamage":2200,
+      "speedLevel":3,
+      "meleeDamageVs": {
+        "Arabian assassin": 134,
+        "Arabian swordsman": 125,
+        "European knight": 75,
+        "European maceman": 133
+  }
+    },
+
+    "European knight": {
+      "health":30000,
+      "baseMeleeDamage":100,
+      "arrowDamage":250,
+      "stoneDamage":187,
+      "xbowDamage":2500,
+      "meleeDamageVs": {
+        "Arabian slave": 160,
+        "Arabian assassin": 133,
+        "Arabian swordsman": 133,
+        "European swordsman": 120,
+        "European maceman": 133,
+        "European knight": 50
+      
+      }
+    },
+
+
+    "Monk": {
+      "arrowDamage":3000,
+      "meleeDamageVs": {
+        "European maceman": 67,
+        "European swordsman": 60,
+        "Arabian assassin": 67,
+        "Arabian swordsman": 63      
+      } },
+
+
+    "Lord": {
+      "meleeDamageVs": {
+        "Arabian swordsman": 188,
+        "European maceman": 200,
+        "European swordsman": 180,
+        "Arabian assassin": 200
+        
+        }},
+
+    "European crossbowman": {
+      "stoneDamage":1250,
+      "xbowDamage":3000,
+      "baseMeleeDamage":10,
+      "meleeDamageVs": {
+        "European maceman": 13,
+        "European swordsman": 12,
+        "Arabian assassin": 13,
+        "Arabian swordsman": 12
+    }
+  },
+
+
+    "European archer": {
+      "stoneDamage":2000,
+      "xbowDamage":3000,
+      "arrowDamage":1250,
+      "baseMeleeDamage":10,
+      "meleeDamageVs": {
+        "European swordsman": 12,
+        "Arabian assassin": 13,
+        "Arabian swordsman": 12,
+        "European maceman": 13
+      }
+  
+  },
+
+
+    "Arabian assassin": {
+      "health":20000,
+      "arrowDamage":1500,
+      "xbowDamage":5000,
+      "stoneDamage":666,
+      "meleeDamageVs": {
+        "Trebuchet": 40,
+        "Arabian assassin": 106,
+        "Arabian swordsman": 100,
+        "European maceman": 107,
+        "European swordsman": 96
+    }
+    },
+
+    "Arabian swordsman": {
+      "health":25000,
+      "speedLevel":2,
+      "arrowDamage":375,
+      "stoneDamage":250,
+      "xbowDamage":2300,
+      "meleeDamageVs": {
+        "European swordsman": 90,
+        "Arabian assassin": 134,
+        "European knight": 93,
+        "European maceman": 133
+      
+      }
+    },
+
+    "Arabian slave": {
+      "arrowDamage":4000,
+      "stoneDamage":2000,
+      "speedLevel":0,
+      "meleeDamageVs": {
+        "European swordsman": 12,
+        "Arabian assassin": 14,
+        "Arabian swordsman": 12,
+        "European maceman": 14
+    }
+    },
+
+
+    "Arabian slinger": {
+    "health":9000,
+    "arrowDamage":1500,
+    "stoneDamage":1500,
+    "xbowDamage":3000,
+    "meleeDamageVs": {
+      "European swordsman": 24,
+      "Arabian assassin": 26,
+      "Arabian swordsman": 25,
+      "European maceman": 26
+  }
+  
+  },
+
+  "Arabian archer": {"stoneDamage":1200,
+  "arrowDamage":1200,
+  "xbowDamage":3000,
+  "meleeDamageVs": {
+    "European swordsman": 18,
+    "Arabian assassin": 26,
+    "Arabian swordsman": 25,
+    "European maceman": 20
+}
+  
+},
+
+
+  "Arabian horse archer": {
+  "xbowDamage":5000,
+  "arrowDamage":1667,
+  "meleeDamageVs": {
+    "Trebuchet": 20,
+    "European maceman": 27,
+    "European swordsman": 24,
+    "Arabian assassin": 27,
+    "Arabian swordsman": 25
+  }
+
+
+
+},
+
+
+  "Arabian firethrower": {
+  "xbowDamage":3000,
+  "arrowDamage":1000,
+  "meleeDamageVs": {
+    "Trebuchet": 10,
+    "European maceman": 20,
+    "European swordsman": 18,
+    "Arabian assassin": 20,
+    "Arabian swordsman": 18
+  }
+
+},
+
+    "Dog": {
+      "health":15000,
+      "meleeDamageVs": {
+        "European maceman": 67,
+        "European swordsman": 60,
+        "Arabian assassin": 67,
+        "Arabian swordsman": 63
+    }},
+
+    "Hunter dog": {
+      "meleeDamageVs": {
+        "European swordsman": 12,
+        "Arabian assassin": 14,
+        "Arabian swordsman": 12,
+        "European maceman": 14
+    }},
+
+    "Tunneler": {
+      "arrowDamage": 2000,
+      "xbowDamage": 4000,
+      "stoneDamage": 1250,
+      "baseMeleeDamage":25,
+      "meleeDamageVs": {
+        "European maceman": 32,
+        "Arabian swordsman": 30,
+        "Arabian assassin": 32,
+        "European swordsman": 29
+      },
+
+      "buildingDamage": 50,
+      "fortificationDamage": 50,
+      "wallDamage": 20,
+      "powerLevel": 5
+    },
+ 
+
+    "Drunkard": {
+      "meleeEngage": false
+    },
+    "Jester": {
+      "meleeEngage": false
+    },
+
+    "Siege tower": {"speedLevel":9,
+    "health":480000,
+    "arrowDamage":1200,
+    "xbowDamage":2400
+ },
+
+"Woodcutter": {
+  "meleeDamageVs": {
+    "Arabian swordsman": 25,
+    "European maceman": 27,
+    "European swordsman": 24,
+    "Arabian assassin": 27
+  }},
+
+
+  "Hunter": {
+    "meleeDamageVs": {
+      "European maceman": 14,
+      "Arabian assassin": 14,
+      "Arabian swordsman": 12,
+      "European swordsman": 12
+  }},
+
+
+  "Blacksmith": {
+    "meleeDamageVs": {
+      "European maceman": 27,
+      "European swordsman": 24,
+      "Arabian assassin": 27,
+      "Arabian swordsman": 25
+  }},
+ 
+
+"Quarry mason": {
+  "meleeDamageVs": {
+    "European maceman": 27,
+    "European swordsman": 24,
+    "Arabian assassin": 27,
+    "Arabian swordsman": 25
+    }},
+
+"Priest": {
+  "speedLevel":0},
+
+
+"Lion": {
+  "meleeDamageVs": {
+    "European maceman": 133,
+    "European swordsman": 120,
+    "Arabian assassin": 133,
+    "Arabian swordsman": 125
+}},
+
+"Portable shield": {
+  "speedLevel":6},
+
+
+    "Battering ram": {"health":240000,
+    "speedLevel":4,
+    "arrowDamage":2400,
+    "xbowDamage":4800,
+    "stoneDamage":1600
+}
+
+
+
+  }
+
+
+
+}
