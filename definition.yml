@@ -1,6 +1,6 @@
 name: NewBalance-Nevikov
 author: Nevikov
-version: 1.0.0
+version: 1.0.1
 dependencies:
   frontend: ^1.0.0
   framework: ^3.0.6
