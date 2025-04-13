@@ -12,9 +12,14 @@
       "cost": [10,0,0,0,0]
     },
 
+    "Marketplace": {
+      "cost": [0,0,0,0,0]
+    },
+
     "Barracks": {
       "cost": [0,10,0,0,0]
     }
+    
   },
   "resources": {
     "Cheese": {
@@ -143,6 +148,14 @@
   
   },
 
+
+    "Ladderman": {
+      "health":20000,
+      "xbowDamage":2000,
+      "arrowDamage":1000,
+      "stoneDamage":1333
+
+  },
 
     "Arabian assassin": {
       "health":20000,
